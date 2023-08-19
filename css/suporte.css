@@ -1,0 +1,121 @@
+:root {
+    --color-primary: #191919;
+    --color-secundary: #f2f2f2;
+    --color-asset: #66bbff;
+    --color-asset2: #0071e3;
+    --bg-primary: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 20px;
+    top: 0;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 -1rem;
+}
+
+.menu .logo {
+    width: 50px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu ul li a {
+    color: var(--color-primary);
+    font-weight: 600;
+    padding-bottom: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: grey;
+    border-radius: 1px solid grey;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    margin-top: 100px;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 2rem; 
+    padding: 2rem; 
+    background-color: var(--color-secundary); 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 3rem;
+    width: 750px;
+    max-width: 100%;
+}
+
+.container-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.content-text {
+    margin-bottom: 2rem; 
+    padding: 2rem; 
+    background-color: var(--color-secundary); 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.4rem;
+    width: 750px;
+    max-width: 100%;
+}
+
+.content h3 {
+    font-size: 2.5rem;
+}
+
+.content-text h3 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8rem;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .content-text {
+        width: 100%;
+        line-height: 1.8rem;
+    }
+
+    .content-text h3 {
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+    }
+}
