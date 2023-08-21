@@ -100,6 +100,24 @@ section h1 {
     margin-bottom: 0.5rem;
 }
 
+footer {
+    background-color: #f0f0f0;
+}
+
+footer:before {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px; /* Espaço entre a linha e o rodapé */
+}
+
+.footer {
+    text-align: center;
+    margin: auto; /* Margem de cima para baixo, auto horizontalmente */
+    padding: 20px; /* Adicione algum espaço interno se necessário */    
+    width: 100%;
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
