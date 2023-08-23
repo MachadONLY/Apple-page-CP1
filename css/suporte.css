@@ -105,13 +105,13 @@ footer:before {
     content: "";
     display: block;
     border-bottom: 1px solid #ccc;
-    margin-top: 20px; /* Espaço entre a linha e o rodapé */
+    margin-top: 20px; 
 }
 
 .footer {
     text-align: center;
-    margin: auto; /* Margem de cima para baixo, auto horizontalmente */
-    padding: 20px; /* Adicione algum espaço interno se necessário */    
+    margin: auto; 
+    padding: 20px;     
     width: 100%;
 }
 
